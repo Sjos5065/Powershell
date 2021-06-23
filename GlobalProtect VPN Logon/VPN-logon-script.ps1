@@ -1,6 +1,6 @@
 # Copy the policy update batch file from network to local machine
 
-$source = "\\IVGSS-DC-SCV01\Scripts\policy_update.bat"
+$source = "\\fileserver\Scripts\policy_update.bat"
 
 $tempdirexists = Test-Path -Path "c:\Temp"
 
